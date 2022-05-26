@@ -1,4 +1,4 @@
-/* .page,
+.page,
 .header,
 .footer,
 div,
@@ -9,7 +9,7 @@ p {
   border: 1px solid goldenrod;
   margin: 0;
 }
- */
+
 
 .page {
   min-width: 1100px;
@@ -80,9 +80,6 @@ p {
   bottom: 0;
   width: 765px;
   height: 608px;
-  background-image: url('../images/header-image.png');
-  background-size: cover;
-  alt: 'Опять двойка...';
 }
 
 .header__square-pic {
@@ -146,6 +143,82 @@ p {
   font-weight: bold;
 }
 
+.techniques {
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+}
+
+.section-title {
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 100px;
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-subtitle {
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 20px;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.cards {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 920px;
+}
+
+.cards__item {
+  margin: 60px 0 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+
+}
+
+.cards__image {
+  margin: 0 40px 43px 40px;
+  padding: 0;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+
+}
+
+.cards__title {
+  margin: 0 0 16px 0;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cards__description {
+  margin: 0;
+  padding: 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+
 .digits {}
 
 .footer {}
@@ -153,5 +226,3 @@ p {
 .kaufman {}
 
 .resources {}
-
-.techniques {}
