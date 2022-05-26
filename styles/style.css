@@ -1,17 +1,22 @@
-.page,
+/* .page,
 .header,
 .footer,
 div,
-section {
+section,
+h1,
+h2 {
   border: 1px solid goldenrod;
-}
+  margin: 0;
+} */
 
 .page {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
   padding: 0;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: 'Inter',
+    Arial,
+    sans-serif;
 }
 
 .header {
@@ -21,11 +26,68 @@ section {
   max-height: 756px;
   display: flex;
   align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  height: 32px;
+  width: 228px;
+  background-image: url('../images/logo_place_header.svg');
+  background-repeat: no-repeat;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.header__title {
+  width: 730px;
+  margin-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.header__subtitle {
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  z-index: 1;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: 0;
+}
+
+.header__main-illustration {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 765px;
+  height: 608px;
+  background-image: url('../images/header-image.png');
+  background-size: cover;
+  alt: 'Опять двойка...';
 }
 
 .header__square-pic {
+  position: absolute;
+  top: 64px;
+  right: 0;
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
 }
 
 .content {}
@@ -36,44 +98,7 @@ section {
 
 .footer {}
 
-.header__link {}
-
-.header__main-illustration {}
-
-.header__subtitle {
-  position: absolute;
-  bottom: 30px;
-  left: 64px;
-  width: 388px;
-  font-weight: bold;
-  line-height: 25px;
-  font-size: 18px;
-}
-
-.header__title {
-  font-weight: bold;
-  line-height: 96px;
-  font-size: 102px;
-  width: 630;
-  margin-left: 64px;
-}
-
 .kaufman {}
-
-.logo {
-  margin: 0;
-  padding: 0;
-  height: 32px;
-  width: 228px;
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  background-image: url('../images/logo_place_header.svg');
-  background-repeat: no-repeat;
-  z-index: 1;
-}
-
-.logo_place_header {}
 
 .resources {}
 
