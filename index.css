@@ -1,6 +1,8 @@
 @import url('./vendor/fonts/fonts.css');
 @import url('./vendor/normalize.css');
-@import url('./blocks/animation/__rotation360/animation__rotation360.css');
+@import url('/blocks/rotation/rotation.css');
+@import url('/blocks/rotation/_keyframes/rotation_keyframes_around-self.css');
+@import url('/blocks/rotation/_type/rotation_type_around-self-in-20s.css');
 @import url('./blocks/content/content.css');
 @import url('./blocks/page/page.css');
 @import url('./blocks/header/header.css');
