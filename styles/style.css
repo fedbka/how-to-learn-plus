@@ -229,16 +229,17 @@
 
 .video__iframes {
   display: flex;
+  justify-content: space-between;
   margin: 0 auto;
-  padding: 0;
   width: 1050px;
   position: relative;
-  justify-content: space-between;
+  bottom: -50px;
 }
 
 .video__iframe {
   width: 515px;
   height: 316px;
+
 }
 
 .oakley {
@@ -259,6 +260,7 @@
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: 867px 637px;
+  box-sizing: border-box;
 }
 
 .feynman__title {
@@ -283,7 +285,7 @@
 
 .feynman__link {
   position: absolute;
-  top: 445px;
+  top: 50%;
   right: 48px;
   line-height: 51px;
   font-size: 36px;
