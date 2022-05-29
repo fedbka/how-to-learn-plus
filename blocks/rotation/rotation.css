@@ -1,1 +1,16 @@
-.rotation {}
+.rotation {
+  animation: rotation_keyframes_around-self;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotation_keyframes_around-self {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
