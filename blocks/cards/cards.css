@@ -8,4 +8,7 @@
   column-gap: 100px;
   row-gap: 60px;
   list-style-type: none;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }

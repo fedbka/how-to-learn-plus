@@ -2,8 +2,12 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  padding: 0;
   width: 1050px;
   position: relative;
   bottom: -50px;
   list-style-type: none;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
